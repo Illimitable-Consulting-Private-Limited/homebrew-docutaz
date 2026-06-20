@@ -6,8 +6,8 @@
 # and pushes the result to the tap. Keep those two lines in this exact shape
 # (literal " on the same line) so the workflow's sed can find them.
 cask "docutaz" do
-  version "0.0.0"  # overwritten by the release workflow
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"  # overwritten by the release workflow
+  version "2.4.0"  # overwritten by the release workflow
+  sha256 "8b431fc6fbc8158e074515e30d57d09af3b91313d43684eb96d6383bba294a82"  # overwritten by the release workflow
 
   url "https://github.com/Illimitable-Consulting-Private-Limited/docutaz/releases/download/v#{version}/docutaz-#{version}-macos-arm64.zip"
   name "Docutaz"
